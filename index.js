@@ -4,6 +4,6 @@
 //-----------------------------------------------------------------------------
 
 exports.helloWorld = (req, res) => {
-  const message="<font color='blue'>СloudFunction CD/CI serverless</font><br><b>App Version 1.1</b>";
+  const message="<font color='blue'>СloudFunction CD/CI serverless</font><br><b>App Version 1.12</b>";
   res.status(200).send(message);
 };
