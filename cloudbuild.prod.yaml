@@ -1,6 +1,5 @@
 # This CloudBuild will be triggered by push to main branch
 #
-
 steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   args: ['echo', 'Building...']
